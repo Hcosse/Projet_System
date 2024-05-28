@@ -1,4 +1,4 @@
-*# Projet 
+# Projet 
 
 ## Exercice 1
 
@@ -105,12 +105,10 @@ On utilise awk pour trier des informations dans un fichier :
 ```bash
 #!/bin/bash
 
-echo "Saisir l'ID recherché : "
-read index #Stoque l'entrée de l utilisateur dans index
 
-# Trouver la ligne avec l'Index spécifié et imprimer ID et le nom
-awk -F ';' -v idx="$index" '$1 == idx {print "ID: " $1 ", Nom: " $3}' fake-users-base.csv #-F permet de désigner le serparteur ; -v permet de rattacher la variable à awk.
-```
+awk -F ';' 'NR==1{for(i=1;i<=NF;i++){print i " : $i"}}' fake-users-base.csv
+
+
 
 ### Question 4
 
