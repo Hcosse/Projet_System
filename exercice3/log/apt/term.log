@@ -1,0 +1,184 @@
+
+Log started: 2024-05-06  08:17:53
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131196 files and directories currently installed.)
+Preparing to unpack .../cpio_2.13+dfsg-7ubuntu0.1_amd64.deb ...
+Unpacking cpio (2.13+dfsg-7ubuntu0.1) over (2.13+dfsg-7) ...
+Setting up cpio (2.13+dfsg-7ubuntu0.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Log ended: 2024-05-06  08:18:09
+
+Log started: 2024-05-06  08:18:17
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131196 files and directories currently installed.)
+Preparing to unpack .../less_590-1ubuntu0.22.04.3_amd64.deb ...
+Unpacking less (590-1ubuntu0.22.04.3) over (590-1ubuntu0.22.04.2) ...
+Setting up less (590-1ubuntu0.22.04.3) ...
+Processing triggers for man-db (2.10.2-1) ...
+Log ended: 2024-05-06  08:18:18
+
+Log started: 2024-05-06  08:18:23
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131196 files and directories currently installed.)
+Preparing to unpack .../libnghttp2-14_1.43.0-1ubuntu0.2_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.43.0-1ubuntu0.2) over (1.43.0-1ubuntu0.1) ...
+Setting up libnghttp2-14:amd64 (1.43.0-1ubuntu0.2) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.7) ...
+Log ended: 2024-05-06  08:18:23
+
+Log started: 2024-05-11  14:55:36
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131196 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-data_2.72.4-0ubuntu2.3_all.deb ...
+Unpacking libglib2.0-data (2.72.4-0ubuntu2.3) over (2.72.4-0ubuntu2.2) ...
+Setting up libglib2.0-data (2.72.4-0ubuntu2.3) ...
+Log ended: 2024-05-11  14:55:51
+
+Log started: 2024-05-11  14:56:01
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131196 files and directories currently installed.)
+Preparing to unpack .../linux-libc-dev_5.15.0-106.116_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.15.0-106.116) over (5.15.0-105.115) ...
+Setting up linux-libc-dev:amd64 (5.15.0-106.116) ...
+Log ended: 2024-05-11  14:56:04
+
+Log started: 2024-05-11  14:56:08
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131196 files and directories currently installed.)
+Preparing to unpack .../distro-info-data_0.52ubuntu0.7_all.deb ...
+Unpacking distro-info-data (0.52ubuntu0.7) over (0.52ubuntu0.6) ...
+Setting up distro-info-data (0.52ubuntu0.7) ...
+Log ended: 2024-05-11  14:56:09
+
+Log started: 2024-05-11  14:56:13
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131196 files and directories currently installed.)
+Preparing to unpack .../libglib2.0-bin_2.72.4-0ubuntu2.3_amd64.deb ...
+Unpacking libglib2.0-bin (2.72.4-0ubuntu2.3) over (2.72.4-0ubuntu2.2) ...
+Preparing to unpack .../libglib2.0-0_2.72.4-0ubuntu2.3_amd64.deb ...
+Unpacking libglib2.0-0:amd64 (2.72.4-0ubuntu2.3) over (2.72.4-0ubuntu2.2) ...
+Setting up libglib2.0-0:amd64 (2.72.4-0ubuntu2.3) ...
+No schema files found: doing nothing.
+Setting up libglib2.0-bin (2.72.4-0ubuntu2.3) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.7) ...
+Processing triggers for man-db (2.10.2-1) ...
+Log ended: 2024-05-11  14:56:16
+
+Log started: 2024-05-28  11:53:21
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131196 files and directories currently installed.)
+Preparing to unpack .../linux-libc-dev_5.15.0-107.117_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.15.0-107.117) over (5.15.0-106.116) ...
+Setting up linux-libc-dev:amd64 (5.15.0-107.117) ...
+Log ended: 2024-05-28  11:53:35
+
+Log started: 2024-05-28  11:53:42
+Selecting previously unselected package linux-modules-6.5.0-1020-aws.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131196 files and directories currently installed.)
+Preparing to unpack .../0-linux-modules-6.5.0-1020-aws_6.5.0-1020.20~22.04.1_amd64.deb ...
+Unpacking linux-modules-6.5.0-1020-aws (6.5.0-1020.20~22.04.1) ...
+Selecting previously unselected package linux-image-6.5.0-1020-aws.
+Preparing to unpack .../1-linux-image-6.5.0-1020-aws_6.5.0-1020.20~22.04.1_amd64.deb ...
+Unpacking linux-image-6.5.0-1020-aws (6.5.0-1020.20~22.04.1) ...
+Preparing to unpack .../2-linux-aws_6.5.0.1020.20~22.04.1_amd64.deb ...
+Unpacking linux-aws (6.5.0.1020.20~22.04.1) over (6.5.0.1018.18~22.04.1) ...
+Preparing to unpack .../3-linux-image-aws_6.5.0.1020.20~22.04.1_amd64.deb ...
+Unpacking linux-image-aws (6.5.0.1020.20~22.04.1) over (6.5.0.1018.18~22.04.1) ...
+Selecting previously unselected package linux-aws-6.5-headers-6.5.0-1020.
+Preparing to unpack .../4-linux-aws-6.5-headers-6.5.0-1020_6.5.0-1020.20~22.04.1_all.deb ...
+Unpacking linux-aws-6.5-headers-6.5.0-1020 (6.5.0-1020.20~22.04.1) ...
+Selecting previously unselected package linux-headers-6.5.0-1020-aws.
+Preparing to unpack .../5-linux-headers-6.5.0-1020-aws_6.5.0-1020.20~22.04.1_amd64.deb ...
+Unpacking linux-headers-6.5.0-1020-aws (6.5.0-1020.20~22.04.1) ...
+Preparing to unpack .../6-linux-headers-aws_6.5.0.1020.20~22.04.1_amd64.deb ...
+Unpacking linux-headers-aws (6.5.0.1020.20~22.04.1) over (6.5.0.1018.18~22.04.1) ...
+Setting up linux-aws-6.5-headers-6.5.0-1020 (6.5.0-1020.20~22.04.1) ...
+Setting up linux-headers-6.5.0-1020-aws (6.5.0-1020.20~22.04.1) ...
+Setting up linux-headers-aws (6.5.0.1020.20~22.04.1) ...
+Setting up linux-modules-6.5.0-1020-aws (6.5.0-1020.20~22.04.1) ...
+Setting up linux-image-6.5.0-1020-aws (6.5.0-1020.20~22.04.1) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-6.5.0-1018-aws
+I: /boot/initrd.img.old is now a symlink to initrd.img-6.5.0-1018-aws
+I: /boot/vmlinuz is now a symlink to vmlinuz-6.5.0-1020-aws
+I: /boot/initrd.img is now a symlink to initrd.img-6.5.0-1020-aws
+Setting up linux-image-aws (6.5.0.1020.20~22.04.1) ...
+Setting up linux-aws (6.5.0.1020.20~22.04.1) ...
+Processing triggers for linux-image-6.5.0-1020-aws (6.5.0-1020.20~22.04.1) ...
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-6.5.0-1020-aws
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/40-force-partuuid.cfg'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+GRUB_FORCE_PARTUUID is set, will attempt initrdless boot
+Found linux image: /boot/vmlinuz-6.5.0-1020-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-6.5.0-1020-aws
+Found linux image: /boot/vmlinuz-6.5.0-1018-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-6.5.0-1018-aws
+Found linux image: /boot/vmlinuz-6.5.0-1016-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-6.5.0-1016-aws
+Found linux image: /boot/vmlinuz-5.15.0-1030-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-5.15.0-1030-aws
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+done
+Log ended: 2024-05-28  11:54:35
+
+Log started: 2024-05-28  11:54:39
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 161442 files and directories currently installed.)
+Preparing to unpack .../python3-idna_3.3-1ubuntu0.1_all.deb ...
+Unpacking python3-idna (3.3-1ubuntu0.1) over (3.3-1) ...
+Setting up python3-idna (3.3-1ubuntu0.1) ...
+Log ended: 2024-05-28  11:54:41
+
+Log started: 2024-05-28  11:54:46
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 161441 files and directories currently installed.)
+Removing linux-headers-6.5.0-1016-aws (6.5.0-1016.16~22.04.1) ...
+Log ended: 2024-05-28  11:54:48
+
+Log started: 2024-05-28  11:54:52
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 152291 files and directories currently installed.)
+Removing linux-modules-6.5.0-1016-aws (6.5.0-1016.16~22.04.1) ...
+Removing linux-image-6.5.0-1016-aws (6.5.0-1016.16~22.04.1) ...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-6.5.0-1016-aws
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/40-force-partuuid.cfg'
+Sourcing file `/etc/default/grub.d/50-cloudimg-settings.cfg'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+GRUB_FORCE_PARTUUID is set, will attempt initrdless boot
+Found linux image: /boot/vmlinuz-6.5.0-1020-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-6.5.0-1020-aws
+Found linux image: /boot/vmlinuz-6.5.0-1018-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-6.5.0-1018-aws
+Found linux image: /boot/vmlinuz-5.15.0-1030-aws
+Found initrd image: /boot/microcode.cpio /boot/initrd.img-5.15.0-1030-aws
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+done
+Log ended: 2024-05-28  11:54:55
+
+Log started: 2024-05-28  11:54:59
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 151038 files and directories currently installed.)
+Removing linux-aws-6.5-headers-6.5.0-1016 (6.5.0-1016.16~22.04.1) ...
+Log ended: 2024-05-28  11:55:02
+
+Log started: 2024-05-29  06:13:10
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131209 files and directories currently installed.)
+Preparing to unpack .../python3-jinja2_3.0.3-1ubuntu0.2_all.deb ...
+Unpacking python3-jinja2 (3.0.3-1ubuntu0.2) over (3.0.3-1ubuntu0.1) ...
+Setting up python3-jinja2 (3.0.3-1ubuntu0.2) ...
+Log ended: 2024-05-29  06:13:11
+
+Log started: 2024-05-29  06:13:15
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131209 files and directories currently installed.)
+Preparing to unpack .../git-man_1%3a2.34.1-1ubuntu1.11_all.deb ...
+Unpacking git-man (1:2.34.1-1ubuntu1.11) over (1:2.34.1-1ubuntu1.10) ...
+Setting up git-man (1:2.34.1-1ubuntu1.11) ...
+Processing triggers for man-db (2.10.2-1) ...
+Log ended: 2024-05-29  06:13:16
+
+Log started: 2024-05-29  06:13:21
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131209 files and directories currently installed.)
+Preparing to unpack .../git_1%3a2.34.1-1ubuntu1.11_amd64.deb ...
+Unpacking git (1:2.34.1-1ubuntu1.11) over (1:2.34.1-1ubuntu1.10) ...
+Setting up git (1:2.34.1-1ubuntu1.11) ...
+Log ended: 2024-05-29  06:13:22

@@ -1,0 +1,2 @@
+update-alternatives 2024-05-06 08:18:07: run with --install /bin/mt mt /bin/mt-gnu 10 --slave /usr/share/man/man1/mt.1.gz mt.1.gz /usr/share/man/man1/mt-gnu.1.gz
+update-alternatives 2024-05-06 08:18:18: run with --quiet --install /usr/bin/pager pager /usr/bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz

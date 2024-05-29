@@ -1,0 +1,24 @@
+2024-05-14 07:41:30,156 fail2ban.server         [393]: INFO    --------------------------------------------------
+2024-05-14 07:41:30,156 fail2ban.server         [393]: INFO    Starting Fail2ban v0.11.2
+2024-05-14 07:41:30,219 fail2ban.observer       [393]: INFO    Observer start...
+2024-05-14 07:41:30,380 fail2ban.database       [393]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2024-05-14 07:41:30,383 fail2ban.jail           [393]: INFO    Creating new jail 'sshd'
+2024-05-14 07:41:30,470 fail2ban.jail           [393]: INFO    Jail 'sshd' uses pyinotify {}
+2024-05-14 07:41:30,474 fail2ban.jail           [393]: INFO    Initiated 'pyinotify' backend
+2024-05-14 07:41:30,544 fail2ban.filter         [393]: INFO      maxLines: 1
+2024-05-14 07:41:30,802 fail2ban.filter         [393]: INFO      maxRetry: 3
+2024-05-14 07:41:30,802 fail2ban.filter         [393]: INFO      findtime: 600
+2024-05-14 07:41:30,802 fail2ban.actions        [393]: INFO      banTime: 7200
+2024-05-14 07:41:30,803 fail2ban.filter         [393]: INFO      encoding: UTF-8
+2024-05-14 07:41:30,859 fail2ban.filter         [393]: INFO    Added logfile: '/var/log/auth.log' (pos = 53685, hash = bf584dc521d88bf29bd581d8a4036f89efc856b4)
+2024-05-14 07:41:30,868 fail2ban.jail           [393]: INFO    Jail 'sshd' started
+2024-05-14 07:41:30,869 fail2ban.server         [393]: INFO    rollover performed on /var/log/fail2ban.log
+2024-05-14 08:40:52,574 fail2ban.server         [393]: INFO    Shutdown in progress...
+2024-05-14 08:40:52,574 fail2ban.observer       [393]: INFO    Observer stop ... try to end queue 5 seconds
+2024-05-14 08:40:52,594 fail2ban.observer       [393]: INFO    Observer stopped, 0 events remaining.
+2024-05-14 08:40:52,634 fail2ban.server         [393]: INFO    Stopping all jails
+2024-05-14 08:40:52,635 fail2ban.filter         [393]: INFO    Removed logfile: '/var/log/auth.log'
+2024-05-14 08:40:53,018 fail2ban.actions        [393]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport
+2024-05-14 08:40:53,837 fail2ban.jail           [393]: INFO    Jail 'sshd' stopped
+2024-05-14 08:40:53,838 fail2ban.database       [393]: INFO    Connection to database closed.
+2024-05-14 08:40:53,838 fail2ban.server         [393]: INFO    Exiting Fail2ban

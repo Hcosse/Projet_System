@@ -1,0 +1,506 @@
+May 14 07:41:37 ece-b1-sys kernel: [   47.088045] loop11: detected capacity change from 0 to 8
+May 14 07:41:55 ece-b1-sys kernel: [   64.402739] loop11: detected capacity change from 0 to 113992
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] Linux version 6.5.0-1018-aws (buildd@lcy02-amd64-076) (x86_64-linux-gnu-gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #18~22.04.1-Ubuntu SMP Fri Apr  5 17:44:33 UTC 2024 (Ubuntu 6.5.0-1018.18~22.04.1-aws 6.5.13)
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-6.5.0-1018-aws root=PARTUUID=845a6649-d0f0-48a1-af9d-9ae48ceeabe1 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] KERNEL supported cpus:
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000]   Intel GenuineIntel
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000]   AMD AuthenticAMD
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000]   Hygon HygonGenuine
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000]   Centaur CentaurHauls
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000]   zhaoxin   Shanghai  
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] BIOS-provided physical RAM map:
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007d9e9fff] usable
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] BIOS-e820: [mem 0x000000007d9ea000-0x000000007fffffff] reserved
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000e03fffff] reserved
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] NX (Execute Disable) protection: active
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] SMBIOS 2.7 present.
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] DMI: Amazon EC2 t3.small/, BIOS 1.0 10/16/2017
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] Hypervisor detected: KVM
+May 26 16:22:55 ece-b1-sys kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+May 26 16:22:55 ece-b1-sys kernel: [    0.000001] kvm-clock: using sched offset of 7063062577 cycles
+May 26 16:22:55 ece-b1-sys kernel: [    0.000004] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+May 26 16:22:55 ece-b1-sys kernel: [    0.000007] tsc: Detected 2499.994 MHz processor
+May 26 16:22:55 ece-b1-sys kernel: [    0.000571] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+May 26 16:22:55 ece-b1-sys kernel: [    0.000575] e820: remove [mem 0x000a0000-0x000fffff] usable
+May 26 16:22:55 ece-b1-sys kernel: [    0.000580] last_pfn = 0x7d9ea max_arch_pfn = 0x400000000
+May 26 16:22:55 ece-b1-sys kernel: [    0.000624] MTRR map: 4 entries (3 fixed + 1 variable; max 19), built from 8 variable MTRRs
+May 26 16:22:55 ece-b1-sys kernel: [    0.000629] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+May 26 16:22:55 ece-b1-sys kernel: [    0.010298] Using GB pages for direct mapping
+May 26 16:22:55 ece-b1-sys kernel: [    0.013294] RAMDISK: [mem 0x37209000-0x378fbfff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013316] ACPI: Early table checksum verification disabled
+May 26 16:22:55 ece-b1-sys kernel: [    0.013326] ACPI: RSDP 0x00000000000F8F40 000014 (v00 AMAZON)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013335] ACPI: RSDT 0x000000007D9EE350 000044 (v01 AMAZON AMZNRSDT 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013342] ACPI: FACP 0x000000007D9EFF80 000074 (v01 AMAZON AMZNFACP 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013348] ACPI: DSDT 0x000000007D9EE3A0 0010E9 (v01 AMAZON AMZNDSDT 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013352] ACPI: FACS 0x000000007D9EFF40 000040
+May 26 16:22:55 ece-b1-sys kernel: [    0.013355] ACPI: SSDT 0x000000007D9EF6C0 00087A (v01 AMAZON AMZNSSDT 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013358] ACPI: APIC 0x000000007D9EF5D0 000076 (v01 AMAZON AMZNAPIC 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013361] ACPI: SRAT 0x000000007D9EF530 0000A0 (v01 AMAZON AMZNSRAT 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013365] ACPI: SLIT 0x000000007D9EF4C0 00006C (v01 AMAZON AMZNSLIT 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013368] ACPI: WAET 0x000000007D9EF490 000028 (v01 AMAZON AMZNWAET 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013373] ACPI: HPET 0x00000000000C9000 000038 (v01 AMAZON AMZNHPET 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013376] ACPI: SSDT 0x00000000000C9040 00007B (v01 AMAZON AMZNSSDT 00000001 AMZN 00000001)
+May 26 16:22:55 ece-b1-sys kernel: [    0.013379] ACPI: Reserving FACP table memory at [mem 0x7d9eff80-0x7d9efff3]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013381] ACPI: Reserving DSDT table memory at [mem 0x7d9ee3a0-0x7d9ef488]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013382] ACPI: Reserving FACS table memory at [mem 0x7d9eff40-0x7d9eff7f]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013383] ACPI: Reserving SSDT table memory at [mem 0x7d9ef6c0-0x7d9eff39]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013383] ACPI: Reserving APIC table memory at [mem 0x7d9ef5d0-0x7d9ef645]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013384] ACPI: Reserving SRAT table memory at [mem 0x7d9ef530-0x7d9ef5cf]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013385] ACPI: Reserving SLIT table memory at [mem 0x7d9ef4c0-0x7d9ef52b]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013386] ACPI: Reserving WAET table memory at [mem 0x7d9ef490-0x7d9ef4b7]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013387] ACPI: Reserving HPET table memory at [mem 0xc9000-0xc9037]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013388] ACPI: Reserving SSDT table memory at [mem 0xc9040-0xc90ba]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013526] SRAT: PXM 0 -> APIC 0x00 -> Node 0
+May 26 16:22:55 ece-b1-sys kernel: [    0.013528] SRAT: PXM 0 -> APIC 0x01 -> Node 0
+May 26 16:22:55 ece-b1-sys kernel: [    0.013531] ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x7fffffff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.013546] NUMA: Initialized distance table, cnt=1
+May 26 16:22:55 ece-b1-sys kernel: [    0.013572] NODE_DATA(0) allocated [mem 0x7d9be000-0x7d9e8fff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.014144] Zone ranges:
+May 26 16:22:55 ece-b1-sys kernel: [    0.014144]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.014146]   DMA32    [mem 0x0000000001000000-0x000000007d9e9fff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.014148]   Normal   empty
+May 26 16:22:55 ece-b1-sys kernel: [    0.014149]   Device   empty
+May 26 16:22:55 ece-b1-sys kernel: [    0.014150] Movable zone start for each node
+May 26 16:22:55 ece-b1-sys kernel: [    0.014153] Early memory node ranges
+May 26 16:22:55 ece-b1-sys kernel: [    0.014153]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.014154]   node   0: [mem 0x0000000000100000-0x000000007d9e9fff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.014156] Initmem setup node 0 [mem 0x0000000000001000-0x000000007d9e9fff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.014164] On node 0, zone DMA: 1 pages in unavailable ranges
+May 26 16:22:55 ece-b1-sys kernel: [    0.014192] On node 0, zone DMA: 97 pages in unavailable ranges
+May 26 16:22:55 ece-b1-sys kernel: [    0.018026] On node 0, zone DMA32: 9750 pages in unavailable ranges
+May 26 16:22:55 ece-b1-sys kernel: [    0.018513] ACPI: PM-Timer IO Port: 0xb008
+May 26 16:22:55 ece-b1-sys kernel: [    0.018526] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+May 26 16:22:55 ece-b1-sys kernel: [    0.018590] IOAPIC[0]: apic_id 0, version 32, address 0xfec00000, GSI 0-23
+May 26 16:22:55 ece-b1-sys kernel: [    0.018593] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+May 26 16:22:55 ece-b1-sys kernel: [    0.018595] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+May 26 16:22:55 ece-b1-sys kernel: [    0.018597] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+May 26 16:22:55 ece-b1-sys kernel: [    0.018598] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+May 26 16:22:55 ece-b1-sys kernel: [    0.018602] ACPI: Using ACPI (MADT) for SMP configuration information
+May 26 16:22:55 ece-b1-sys kernel: [    0.018604] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+May 26 16:22:55 ece-b1-sys kernel: [    0.018608] TSC deadline timer available
+May 26 16:22:55 ece-b1-sys kernel: [    0.018609] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+May 26 16:22:55 ece-b1-sys kernel: [    0.018636] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.018638] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.018639] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.018640] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+May 26 16:22:55 ece-b1-sys kernel: [    0.018642] [mem 0x80000000-0xdfffffff] available for PCI devices
+May 26 16:22:55 ece-b1-sys kernel: [    0.018644] Booting paravirtualized kernel on KVM
+May 26 16:22:55 ece-b1-sys kernel: [    0.018646] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+May 26 16:22:55 ece-b1-sys kernel: [    0.018653] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+May 26 16:22:55 ece-b1-sys kernel: [    0.018932] percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u1048576
+May 26 16:22:55 ece-b1-sys kernel: [    0.018937] pcpu-alloc: s221184 r8192 d28672 u1048576 alloc=1*2097152
+May 26 16:22:55 ece-b1-sys kernel: [    0.018940] pcpu-alloc: [0] 0 1 
+May 26 16:22:55 ece-b1-sys kernel: [    0.018967] kvm-guest: PV spinlocks enabled
+May 26 16:22:55 ece-b1-sys kernel: [    0.018969] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    0.018974] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.5.0-1018-aws root=PARTUUID=845a6649-d0f0-48a1-af9d-9ae48ceeabe1 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+May 26 16:22:55 ece-b1-sys kernel: [    0.019044] Unknown kernel command line parameters "BOOT_IMAGE=/boot/vmlinuz-6.5.0-1018-aws", will be passed to user space.
+May 26 16:22:55 ece-b1-sys kernel: [    0.019064] random: crng init done
+May 26 16:22:55 ece-b1-sys kernel: [    0.019277] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    0.019391] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    0.019438] Fallback order for Node 0: 0 
+May 26 16:22:55 ece-b1-sys kernel: [    0.019441] Built 1 zonelists, mobility grouping on.  Total pages: 506242
+May 26 16:22:55 ece-b1-sys kernel: [    0.019443] Policy zone: DMA32
+May 26 16:22:55 ece-b1-sys kernel: [    0.019449] mem auto-init: stack:off, heap alloc:on, heap free:off
+May 26 16:22:55 ece-b1-sys kernel: [    0.027679] Memory: 1951664K/2057760K available (20480K kernel code, 4262K rwdata, 13252K rodata, 4908K init, 17284K bss, 105836K reserved, 0K cma-reserved)
+May 26 16:22:55 ece-b1-sys kernel: [    0.027907] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+May 26 16:22:55 ece-b1-sys kernel: [    0.027919] Kernel/User page tables isolation: enabled
+May 26 16:22:55 ece-b1-sys kernel: [    0.027951] ftrace: allocating 55672 entries in 218 pages
+May 26 16:22:55 ece-b1-sys kernel: [    0.028034] ftrace section at ffffffffb82837c0 sorted properly
+May 26 16:22:55 ece-b1-sys kernel: [    0.039451] ftrace: allocated 218 pages with 5 groups
+May 26 16:22:55 ece-b1-sys kernel: [    0.039580] rcu: Hierarchical RCU implementation.
+May 26 16:22:55 ece-b1-sys kernel: [    0.039581] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+May 26 16:22:55 ece-b1-sys kernel: [    0.039583] 	Rude variant of Tasks RCU enabled.
+May 26 16:22:55 ece-b1-sys kernel: [    0.039583] 	Tracing variant of Tasks RCU enabled.
+May 26 16:22:55 ece-b1-sys kernel: [    0.039584] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+May 26 16:22:55 ece-b1-sys kernel: [    0.039585] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+May 26 16:22:55 ece-b1-sys kernel: [    0.042585] NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+May 26 16:22:55 ece-b1-sys kernel: [    0.042824] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+May 26 16:22:55 ece-b1-sys kernel: [    0.227216] Console: colour VGA+ 80x25
+May 26 16:22:55 ece-b1-sys kernel: [    0.227223] printk: console [tty1] enabled
+May 26 16:22:55 ece-b1-sys kernel: [    0.854372] printk: console [ttyS0] enabled
+May 26 16:22:55 ece-b1-sys kernel: [    1.065343] ACPI: Core revision 20230331
+May 26 16:22:55 ece-b1-sys kernel: [    1.069232] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 30580167144 ns
+May 26 16:22:55 ece-b1-sys kernel: [    1.076588] APIC: Switch to symmetric I/O mode setup
+May 26 16:22:55 ece-b1-sys kernel: [    1.080950] x2apic enabled
+May 26 16:22:55 ece-b1-sys kernel: [    1.084416] Switched APIC routing to physical x2apic.
+May 26 16:22:55 ece-b1-sys kernel: [    1.090215] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x240933eba6e, max_idle_ns: 440795246008 ns
+May 26 16:22:55 ece-b1-sys kernel: [    1.098238] Calibrating delay loop (skipped) preset value.. 4999.98 BogoMIPS (lpj=9999976)
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Spectre V2 : Mitigation: Retpolines
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] RETBleed: WARNING: Spectre v2 mitigation leaves CPU vulnerable to RETBleed attacks, data leaks possible!
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] RETBleed: Vulnerable
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Speculative Store Bypass: Vulnerable
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] MMIO Stale Data: Vulnerable: Clear CPU buffers attempted, no microcode
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] GDS: Unknown: Dependent on hypervisor status
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: xstate_offset[5]:  960, xstate_sizes[5]:   64
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: xstate_offset[6]: 1024, xstate_sizes[6]:  512
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: xstate_offset[7]: 1536, xstate_sizes[7]: 1024
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: xstate_offset[9]: 2560, xstate_sizes[9]:    8
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] x86/fpu: Enabled xstate features 0x2ff, context size is 2568 bytes, using 'compacted' format.
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Freeing SMP alternatives memory: 44K
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] pid_max: default: 32768 minimum: 301
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,integrity
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] landlock: Up and running.
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Yama: becoming mindful.
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] AppArmor: AppArmor initialized
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    1.102233] smpboot: CPU0: Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz (family: 0x6, model: 0x55, stepping: 0x7)
+May 26 16:22:55 ece-b1-sys kernel: [    1.106639] RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1.
+May 26 16:22:55 ece-b1-sys kernel: [    1.110298] RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1.
+May 26 16:22:55 ece-b1-sys kernel: [    1.118304] Performance Events: unsupported p6 CPU model 85 no PMU driver, software events only.
+May 26 16:22:55 ece-b1-sys kernel: [    1.126295] signal: max sigframe size: 3632
+May 26 16:22:55 ece-b1-sys kernel: [    1.130218] rcu: Hierarchical SRCU implementation.
+May 26 16:22:55 ece-b1-sys kernel: [    1.133158] rcu: 	Max phase no-delay instances is 1000.
+May 26 16:22:55 ece-b1-sys kernel: [    1.138343] NMI watchdog: Perf NMI watchdog permanently disabled
+May 26 16:22:55 ece-b1-sys kernel: [    1.142322] smp: Bringing up secondary CPUs ...
+May 26 16:22:55 ece-b1-sys kernel: [    1.146417] smpboot: x86: Booting SMP configuration:
+May 26 16:22:55 ece-b1-sys kernel: [    1.150249] .... node  #0, CPUs:      #1
+May 26 16:22:55 ece-b1-sys kernel: [    1.154263] MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+May 26 16:22:55 ece-b1-sys kernel: [    1.162252] MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+May 26 16:22:55 ece-b1-sys kernel: [    1.170344] smp: Brought up 1 node, 2 CPUs
+May 26 16:22:55 ece-b1-sys kernel: [    1.174245] smpboot: Max logical packages: 1
+May 26 16:22:55 ece-b1-sys kernel: [    1.178249] smpboot: Total of 2 processors activated (9999.97 BogoMIPS)
+May 26 16:22:55 ece-b1-sys kernel: [    1.187418] devtmpfs: initialized
+May 26 16:22:55 ece-b1-sys kernel: [    1.200839] x86/mm: Memory block size: 128MB
+May 26 16:22:55 ece-b1-sys kernel: [    1.218357] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+May 26 16:22:55 ece-b1-sys kernel: [    1.226254] futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    1.230332] pinctrl core: initialized pinctrl subsystem
+May 26 16:22:55 ece-b1-sys kernel: [    1.234549] PM: RTC time: 16:22:17, date: 2024-05-26
+May 26 16:22:55 ece-b1-sys kernel: [    1.239168] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+May 26 16:22:55 ece-b1-sys kernel: [    1.242415] DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+May 26 16:22:55 ece-b1-sys kernel: [    1.246490] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+May 26 16:22:55 ece-b1-sys kernel: [    1.250302] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+May 26 16:22:55 ece-b1-sys kernel: [    1.254267] audit: initializing netlink subsys (disabled)
+May 26 16:22:55 ece-b1-sys kernel: [    1.258309] audit: type=2000 audit(1716740536.736:1): state=initialized audit_enabled=0 res=1
+May 26 16:22:55 ece-b1-sys kernel: [    1.258436] thermal_sys: Registered thermal governor 'fair_share'
+May 26 16:22:55 ece-b1-sys kernel: [    1.266242] thermal_sys: Registered thermal governor 'bang_bang'
+May 26 16:22:55 ece-b1-sys kernel: [    1.270242] thermal_sys: Registered thermal governor 'step_wise'
+May 26 16:22:55 ece-b1-sys kernel: [    1.274243] thermal_sys: Registered thermal governor 'user_space'
+May 26 16:22:55 ece-b1-sys kernel: [    1.278242] thermal_sys: Registered thermal governor 'power_allocator'
+May 26 16:22:55 ece-b1-sys kernel: [    1.286265] EISA bus registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.294298] cpuidle: using governor ladder
+May 26 16:22:55 ece-b1-sys kernel: [    1.298283] cpuidle: using governor menu
+May 26 16:22:55 ece-b1-sys kernel: [    1.302361] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+May 26 16:22:55 ece-b1-sys kernel: [    1.306440] PCI: Using configuration type 1 for base access
+May 26 16:22:55 ece-b1-sys kernel: [    1.310492] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+May 26 16:22:55 ece-b1-sys kernel: [    1.326571] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+May 26 16:22:55 ece-b1-sys kernel: [    1.330245] HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+May 26 16:22:55 ece-b1-sys kernel: [    1.338249] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+May 26 16:22:55 ece-b1-sys kernel: [    1.342243] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+May 26 16:22:55 ece-b1-sys kernel: [    1.354444] ACPI: Added _OSI(Module Device)
+May 26 16:22:55 ece-b1-sys kernel: [    1.358105] ACPI: Added _OSI(Processor Device)
+May 26 16:22:55 ece-b1-sys kernel: [    1.361168] ACPI: Added _OSI(3.0 _SCP Extensions)
+May 26 16:22:55 ece-b1-sys kernel: [    1.366242] ACPI: Added _OSI(Processor Aggregator Device)
+May 26 16:22:55 ece-b1-sys kernel: [    1.371602] ACPI: 3 ACPI AML tables successfully acquired and loaded
+May 26 16:22:55 ece-b1-sys kernel: [    1.379303] ACPI: Interpreter enabled
+May 26 16:22:55 ece-b1-sys kernel: [    1.382265] ACPI: PM: (supports S0 S4 S5)
+May 26 16:22:55 ece-b1-sys kernel: [    1.386113] ACPI: Using IOAPIC for interrupt routing
+May 26 16:22:55 ece-b1-sys kernel: [    1.389723] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+May 26 16:22:55 ece-b1-sys kernel: [    1.398276] PCI: Using E820 reservations for host bridge windows
+May 26 16:22:55 ece-b1-sys kernel: [    1.406613] ACPI: Enabled 16 GPEs in block 00 to 0F
+May 26 16:22:55 ece-b1-sys kernel: [    1.413381] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+May 26 16:22:55 ece-b1-sys kernel: [    1.417739] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+May 26 16:22:55 ece-b1-sys kernel: [    1.422245] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+May 26 16:22:55 ece-b1-sys kernel: [    1.434269] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+May 26 16:22:55 ece-b1-sys kernel: [    1.442721] acpiphp: Slot [3] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.446275] acpiphp: Slot [4] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.450282] acpiphp: Slot [5] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.454279] acpiphp: Slot [6] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.457796] acpiphp: Slot [7] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.461221] acpiphp: Slot [8] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.466264] acpiphp: Slot [9] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.469938] acpiphp: Slot [10] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.473318] acpiphp: Slot [11] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.478278] acpiphp: Slot [12] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.482280] acpiphp: Slot [13] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.486173] acpiphp: Slot [14] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.489272] acpiphp: Slot [15] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.493496] acpiphp: Slot [16] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.497113] acpiphp: Slot [17] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.502280] acpiphp: Slot [18] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.506280] acpiphp: Slot [19] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.510277] acpiphp: Slot [20] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.518281] acpiphp: Slot [21] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.522282] acpiphp: Slot [22] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.530293] acpiphp: Slot [23] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.534285] acpiphp: Slot [24] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.538062] acpiphp: Slot [25] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.542023] acpiphp: Slot [26] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.545077] acpiphp: Slot [27] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.550283] acpiphp: Slot [28] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.554281] acpiphp: Slot [29] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.558048] acpiphp: Slot [30] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.561142] acpiphp: Slot [31] registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.565158] PCI host bridge to bus 0000:00
+May 26 16:22:55 ece-b1-sys kernel: [    1.570243] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+May 26 16:22:55 ece-b1-sys kernel: [    1.574242] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+May 26 16:22:55 ece-b1-sys kernel: [    1.582244] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+May 26 16:22:55 ece-b1-sys kernel: [    1.590244] pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff window]
+May 26 16:22:55 ece-b1-sys kernel: [    1.598247] pci_bus 0000:00: root bus resource [bus 00-ff]
+May 26 16:22:55 ece-b1-sys kernel: [    1.606313] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+May 26 16:22:55 ece-b1-sys kernel: [    1.610720] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+May 26 16:22:55 ece-b1-sys kernel: [    1.615621] pci 0000:00:01.3: [8086:7113] type 00 class 0x000000
+May 26 16:22:55 ece-b1-sys kernel: [    1.623213] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+May 26 16:22:55 ece-b1-sys kernel: [    1.630296] pci 0000:00:01.3: quirk: [io  0xb100-0xb10f] claimed by PIIX4 SMB
+May 26 16:22:55 ece-b1-sys kernel: [    1.634306] pci 0000:00:01.3: PIIX4 devres E PIO at fff0-ffff
+May 26 16:22:55 ece-b1-sys kernel: [    1.638262] pci 0000:00:01.3: PIIX4 devres F MMIO at ffc00000-ffffffff
+May 26 16:22:55 ece-b1-sys kernel: [    1.646261] pci 0000:00:01.3: PIIX4 devres G PIO at fff0-ffff
+May 26 16:22:55 ece-b1-sys kernel: [    1.650259] pci 0000:00:01.3: PIIX4 devres H MMIO at ffc00000-ffffffff
+May 26 16:22:55 ece-b1-sys kernel: [    1.654263] pci 0000:00:01.3: PIIX4 devres I PIO at fff0-ffff
+May 26 16:22:55 ece-b1-sys kernel: [    1.662261] pci 0000:00:01.3: PIIX4 devres J PIO at fff0-ffff
+May 26 16:22:55 ece-b1-sys kernel: [    1.666243] pci 0000:00:01.3: quirk_piix4_acpi+0x0/0x180 took 42968 usecs
+May 26 16:22:55 ece-b1-sys kernel: [    1.671828] pci 0000:00:03.0: [1d0f:1111] type 00 class 0x030000
+May 26 16:22:55 ece-b1-sys kernel: [    1.679048] pci 0000:00:03.0: reg 0x10: [mem 0xfe400000-0xfe7fffff pref]
+May 26 16:22:55 ece-b1-sys kernel: [    1.688956] pci 0000:00:03.0: reg 0x30: [mem 0xfebe0000-0xfebeffff pref]
+May 26 16:22:55 ece-b1-sys kernel: [    1.694362] pci 0000:00:03.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+May 26 16:22:55 ece-b1-sys kernel: [    1.702717] pci 0000:00:04.0: [1d0f:8061] type 00 class 0x010802
+May 26 16:22:55 ece-b1-sys kernel: [    1.708347] pci 0000:00:04.0: reg 0x10: [mem 0xfebf0000-0xfebf3fff]
+May 26 16:22:55 ece-b1-sys kernel: [    1.720232] pci 0000:00:05.0: [1d0f:ec20] type 00 class 0x020000
+May 26 16:22:55 ece-b1-sys kernel: [    1.724360] pci 0000:00:05.0: reg 0x10: [mem 0xfebf4000-0xfebf7fff]
+May 26 16:22:55 ece-b1-sys kernel: [    1.747346] ACPI: PCI: Interrupt link LNKA configured for IRQ 10
+May 26 16:22:55 ece-b1-sys kernel: [    1.754411] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+May 26 16:22:55 ece-b1-sys kernel: [    1.762303] ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+May 26 16:22:55 ece-b1-sys kernel: [    1.766406] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+May 26 16:22:55 ece-b1-sys kernel: [    1.774314] ACPI: PCI: Interrupt link LNKS configured for IRQ 9
+May 26 16:22:55 ece-b1-sys kernel: [    1.778624] iommu: Default domain type: Translated
+May 26 16:22:55 ece-b1-sys kernel: [    1.782244] iommu: DMA domain TLB invalidation policy: lazy mode
+May 26 16:22:55 ece-b1-sys kernel: [    1.786874] SCSI subsystem initialized
+May 26 16:22:55 ece-b1-sys kernel: [    1.790280] libata version 3.00 loaded.
+May 26 16:22:55 ece-b1-sys kernel: [    1.790292] ACPI: bus type USB registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.794395] usbcore: registered new interface driver usbfs
+May 26 16:22:55 ece-b1-sys kernel: [    1.798256] usbcore: registered new interface driver hub
+May 26 16:22:55 ece-b1-sys kernel: [    1.802384] usbcore: registered new device driver usb
+May 26 16:22:55 ece-b1-sys kernel: [    1.806284] pps_core: LinuxPPS API ver. 1 registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.810238] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+May 26 16:22:55 ece-b1-sys kernel: [    1.818258] PTP clock support registered
+May 26 16:22:55 ece-b1-sys kernel: [    1.822295] EDAC MC: Ver: 3.0.0
+May 26 16:22:55 ece-b1-sys kernel: [    1.826497] NetLabel: Initializing
+May 26 16:22:55 ece-b1-sys kernel: [    1.828994] NetLabel:  domain hash size = 128
+May 26 16:22:55 ece-b1-sys kernel: [    1.833690] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+May 26 16:22:55 ece-b1-sys kernel: [    1.841526] NetLabel:  unlabeled traffic allowed by default
+May 26 16:22:55 ece-b1-sys kernel: [    1.846290] mctp: management component transport protocol core
+May 26 16:22:55 ece-b1-sys kernel: [    1.850240] NET: Registered PF_MCTP protocol family
+May 26 16:22:55 ece-b1-sys kernel: [    1.858253] PCI: Using ACPI for IRQ routing
+May 26 16:22:55 ece-b1-sys kernel: [    1.862243] PCI: pci_cache_line_size set to 64 bytes
+May 26 16:22:55 ece-b1-sys kernel: [    1.862406] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+May 26 16:22:55 ece-b1-sys kernel: [    1.862409] e820: reserve RAM buffer [mem 0x7d9ea000-0x7fffffff]
+May 26 16:22:55 ece-b1-sys kernel: [    1.862822] pci 0000:00:03.0: vgaarb: setting as boot VGA device
+May 26 16:22:55 ece-b1-sys kernel: [    1.866233] pci 0000:00:03.0: vgaarb: bridge control possible
+May 26 16:22:55 ece-b1-sys kernel: [    1.866233] pci 0000:00:03.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+May 26 16:22:55 ece-b1-sys kernel: [    1.890255] vgaarb: loaded
+May 26 16:22:55 ece-b1-sys kernel: [    1.894351] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+May 26 16:22:55 ece-b1-sys kernel: [    1.898239] hpet0: 8 comparators, 32-bit 62.500000 MHz counter
+May 26 16:22:55 ece-b1-sys kernel: [    1.904367] clocksource: Switched to clocksource kvm-clock
+May 26 16:22:55 ece-b1-sys kernel: [    1.923069] VFS: Disk quotas dquot_6.6.0
+May 26 16:22:55 ece-b1-sys kernel: [    1.927222] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May 26 16:22:55 ece-b1-sys kernel: [    1.932930] AppArmor: AppArmor Filesystem Enabled
+May 26 16:22:55 ece-b1-sys kernel: [    1.943213] pnp: PnP ACPI init
+May 26 16:22:55 ece-b1-sys kernel: [    1.947117] pnp: PnP ACPI: found 5 devices
+May 26 16:22:55 ece-b1-sys kernel: [    1.964259] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+May 26 16:22:55 ece-b1-sys kernel: [    1.976680] NET: Registered PF_INET protocol family
+May 26 16:22:55 ece-b1-sys kernel: [    1.985999] IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    2.063094] tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    2.070636] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    2.077967] TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    2.085456] TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    2.092674] TCP: Hash tables configured (established 16384 bind 16384)
+May 26 16:22:55 ece-b1-sys kernel: [    2.097534] MPTCP token hash table entries: 2048 (order: 3, 49152 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    2.104490] UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    2.109824] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+May 26 16:22:55 ece-b1-sys kernel: [    2.115657] NET: Registered PF_UNIX/PF_LOCAL protocol family
+May 26 16:22:55 ece-b1-sys kernel: [    2.120726] NET: Registered PF_XDP protocol family
+May 26 16:22:55 ece-b1-sys kernel: [    2.124552] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+May 26 16:22:55 ece-b1-sys kernel: [    2.129562] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+May 26 16:22:55 ece-b1-sys kernel: [    2.134043] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+May 26 16:22:55 ece-b1-sys kernel: [    2.139666] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+May 26 16:22:55 ece-b1-sys kernel: [    2.144679] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+May 26 16:22:55 ece-b1-sys kernel: [    2.149526] PCI: CLS 0 bytes, default 64
+May 26 16:22:55 ece-b1-sys kernel: [    2.153395] Trying to unpack rootfs image as initramfs...
+May 26 16:22:55 ece-b1-sys kernel: [    2.153433] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x240933eba6e, max_idle_ns: 440795246008 ns
+May 26 16:22:55 ece-b1-sys kernel: [    2.162489] Freeing initrd memory: 7116K
+May 26 16:22:55 ece-b1-sys kernel: [    2.171390] clocksource: Switched to clocksource tsc
+May 26 16:22:55 ece-b1-sys kernel: [    2.175750] Initialise system trusted keyrings
+May 26 16:22:55 ece-b1-sys kernel: [    2.179945] Key type blacklist registered
+May 26 16:22:55 ece-b1-sys kernel: [    2.184596] workingset: timestamp_bits=36 max_order=19 bucket_order=0
+May 26 16:22:55 ece-b1-sys kernel: [    2.189521] zbud: loaded
+May 26 16:22:55 ece-b1-sys kernel: [    2.192966] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+May 26 16:22:55 ece-b1-sys kernel: [    2.197501] fuse: init (API version 7.38)
+May 26 16:22:55 ece-b1-sys kernel: [    2.201530] integrity: Platform Keyring initialized
+May 26 16:22:55 ece-b1-sys kernel: [    2.205756] integrity: Machine keyring initialized
+May 26 16:22:55 ece-b1-sys kernel: [    2.218789] Key type asymmetric registered
+May 26 16:22:55 ece-b1-sys kernel: [    2.223050] Asymmetric key parser 'x509' registered
+May 26 16:22:55 ece-b1-sys kernel: [    2.227063] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+May 26 16:22:55 ece-b1-sys kernel: [    2.234592] io scheduler mq-deadline registered
+May 26 16:22:55 ece-b1-sys kernel: [    2.239801] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+May 26 16:22:55 ece-b1-sys kernel: [    2.246233] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+May 26 16:22:55 ece-b1-sys kernel: [    2.253551] ACPI: button: Power Button [PWRF]
+May 26 16:22:55 ece-b1-sys kernel: [    2.257429] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+May 26 16:22:55 ece-b1-sys kernel: [    2.264831] ACPI: button: Sleep Button [SLPF]
+May 26 16:22:55 ece-b1-sys kernel: [    2.269218] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+May 26 16:22:55 ece-b1-sys kernel: [    2.301580] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+May 26 16:22:55 ece-b1-sys kernel: [    2.310184] Linux agpgart interface v0.103
+May 26 16:22:55 ece-b1-sys kernel: [    2.315943] loop: module loaded
+May 26 16:22:55 ece-b1-sys kernel: [    2.321567] nvme nvme0: pci function 0000:00:04.0
+May 26 16:22:55 ece-b1-sys kernel: [    2.321939] tun: Universal TUN/TAP device driver, 1.6
+May 26 16:22:55 ece-b1-sys kernel: [    2.323707] ACPI: \_SB_.LNKD: Enabled at IRQ 11
+May 26 16:22:55 ece-b1-sys kernel: [    2.324431] PPP generic driver version 2.4.2
+May 26 16:22:55 ece-b1-sys kernel: [    2.336123] nvme nvme0: 2/0/0 default/read/poll queues
+May 26 16:22:55 ece-b1-sys kernel: [    2.339992] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+May 26 16:22:55 ece-b1-sys kernel: [    2.356179] i8042: Warning: Keylock active
+May 26 16:22:55 ece-b1-sys kernel: [    2.362878] serio: i8042 KBD port at 0x60,0x64 irq 1
+May 26 16:22:55 ece-b1-sys kernel: [    2.367102] serio: i8042 AUX port at 0x60,0x64 irq 12
+May 26 16:22:55 ece-b1-sys kernel: [    2.371469] mousedev: PS/2 mouse device common for all mice
+May 26 16:22:55 ece-b1-sys kernel: [    2.376345] rtc_cmos 00:00: RTC can wake from S4
+May 26 16:22:55 ece-b1-sys kernel: [    2.381622] rtc_cmos 00:00: registered as rtc0
+May 26 16:22:55 ece-b1-sys kernel: [    2.386866] rtc_cmos 00:00: setting system clock to 2024-05-26T16:22:18 UTC (1716740538)
+May 26 16:22:55 ece-b1-sys kernel: [    2.394245] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+May 26 16:22:55 ece-b1-sys kernel: [    2.398932] i2c_dev: i2c /dev entries driver
+May 26 16:22:55 ece-b1-sys kernel: [    2.402930] device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+May 26 16:22:55 ece-b1-sys kernel: [    2.412376] device-mapper: uevent: version 1.0.3
+May 26 16:22:55 ece-b1-sys kernel: [    2.416942] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+May 26 16:22:55 ece-b1-sys kernel: [    2.424320] platform eisa.0: Probing EISA bus 0
+May 26 16:22:55 ece-b1-sys kernel: [    2.425769]  nvme0n1: p1 p14 p15
+May 26 16:22:55 ece-b1-sys kernel: [    2.428344] platform eisa.0: EISA: Cannot allocate resource for mainboard
+May 26 16:22:55 ece-b1-sys kernel: [    2.428348] platform eisa.0: Cannot allocate resource for EISA slot 1
+May 26 16:22:55 ece-b1-sys kernel: [    2.450592] platform eisa.0: Cannot allocate resource for EISA slot 2
+May 26 16:22:55 ece-b1-sys kernel: [    2.455585] platform eisa.0: Cannot allocate resource for EISA slot 3
+May 26 16:22:55 ece-b1-sys kernel: [    2.465044] platform eisa.0: Cannot allocate resource for EISA slot 4
+May 26 16:22:55 ece-b1-sys kernel: [    2.472123] platform eisa.0: Cannot allocate resource for EISA slot 5
+May 26 16:22:55 ece-b1-sys kernel: [    2.479615] platform eisa.0: Cannot allocate resource for EISA slot 6
+May 26 16:22:55 ece-b1-sys kernel: [    2.485453] platform eisa.0: Cannot allocate resource for EISA slot 7
+May 26 16:22:55 ece-b1-sys kernel: [    2.491655] platform eisa.0: Cannot allocate resource for EISA slot 8
+May 26 16:22:55 ece-b1-sys kernel: [    2.497992] platform eisa.0: EISA: Detected 0 cards
+May 26 16:22:55 ece-b1-sys kernel: [    2.502396] intel_pstate: CPU model not supported
+May 26 16:22:55 ece-b1-sys kernel: [    2.506631] ledtrig-cpu: registered to indicate activity on CPUs
+May 26 16:22:55 ece-b1-sys kernel: [    2.512473] drop_monitor: Initializing network drop monitor service
+May 26 16:22:55 ece-b1-sys kernel: [    2.537841] NET: Registered PF_INET6 protocol family
+May 26 16:22:55 ece-b1-sys kernel: [    2.543048] Segment Routing with IPv6
+May 26 16:22:55 ece-b1-sys kernel: [    2.546668] In-situ OAM (IOAM) with IPv6
+May 26 16:22:55 ece-b1-sys kernel: [    2.551026] NET: Registered PF_PACKET protocol family
+May 26 16:22:55 ece-b1-sys kernel: [    2.555549] Key type dns_resolver registered
+May 26 16:22:55 ece-b1-sys kernel: [    2.559856] No MBM correction factor available
+May 26 16:22:55 ece-b1-sys kernel: [    2.564236] IPI shorthand broadcast: enabled
+May 26 16:22:55 ece-b1-sys kernel: [    2.569877] sched_clock: Marking stable (1512629611, 1055403393)->(2988249079, -420216075)
+May 26 16:22:55 ece-b1-sys kernel: [    2.577485] registered taskstats version 1
+May 26 16:22:55 ece-b1-sys kernel: [    2.582530] Loading compiled-in X.509 certificates
+May 26 16:22:55 ece-b1-sys kernel: [    2.587817] Loaded X.509 cert 'Build time autogenerated kernel key: b8f97b1f69dc2ce2a7bcb24544a97cf2ef488402'
+May 26 16:22:55 ece-b1-sys kernel: [    2.597729] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+May 26 16:22:55 ece-b1-sys kernel: [    2.606438] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+May 26 16:22:55 ece-b1-sys kernel: [    2.615055] blacklist: Loading compiled-in revocation X.509 certificates
+May 26 16:22:55 ece-b1-sys kernel: [    2.620065] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+May 26 16:22:55 ece-b1-sys kernel: [    2.628505] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+May 26 16:22:55 ece-b1-sys kernel: [    2.640117] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+May 26 16:22:55 ece-b1-sys kernel: [    2.648924] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+May 26 16:22:55 ece-b1-sys kernel: [    2.657606] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+May 26 16:22:55 ece-b1-sys kernel: [    2.666359] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+May 26 16:22:55 ece-b1-sys kernel: [    2.674926] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+May 26 16:22:55 ece-b1-sys kernel: [    2.684375] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+May 26 16:22:55 ece-b1-sys kernel: [    2.695524] Key type .fscrypt registered
+May 26 16:22:55 ece-b1-sys kernel: [    2.698954] Key type fscrypt-provisioning registered
+May 26 16:22:55 ece-b1-sys kernel: [    2.703503] Key type encrypted registered
+May 26 16:22:55 ece-b1-sys kernel: [    2.707114] AppArmor: AppArmor sha1 policy hashing enabled
+May 26 16:22:55 ece-b1-sys kernel: [    2.711612] ima: No TPM chip found, activating TPM-bypass!
+May 26 16:22:55 ece-b1-sys kernel: [    2.716117] Loading compiled-in module X.509 certificates
+May 26 16:22:55 ece-b1-sys kernel: [    2.721064] Loaded X.509 cert 'Build time autogenerated kernel key: b8f97b1f69dc2ce2a7bcb24544a97cf2ef488402'
+May 26 16:22:55 ece-b1-sys kernel: [    2.729114] ima: Allocated hash algorithm: sha1
+May 26 16:22:55 ece-b1-sys kernel: [    2.733254] ima: No architecture policies found
+May 26 16:22:55 ece-b1-sys kernel: [    2.737298] evm: Initialising EVM extended attributes:
+May 26 16:22:55 ece-b1-sys kernel: [    2.743938] evm: security.selinux
+May 26 16:22:55 ece-b1-sys kernel: [    2.749636] evm: security.SMACK64
+May 26 16:22:55 ece-b1-sys kernel: [    2.753216] evm: security.SMACK64EXEC
+May 26 16:22:55 ece-b1-sys kernel: [    2.757059] evm: security.SMACK64TRANSMUTE
+May 26 16:22:55 ece-b1-sys kernel: [    2.760571] evm: security.SMACK64MMAP
+May 26 16:22:55 ece-b1-sys kernel: [    2.764295] evm: security.apparmor
+May 26 16:22:55 ece-b1-sys kernel: [    2.767576] evm: security.ima
+May 26 16:22:55 ece-b1-sys kernel: [    2.770777] evm: security.capability
+May 26 16:22:55 ece-b1-sys kernel: [    2.774132] evm: HMAC attrs: 0x1
+May 26 16:22:55 ece-b1-sys kernel: [    2.781181] PM:   Magic number: 8:468:389
+May 26 16:22:55 ece-b1-sys kernel: [    2.790432] RAS: Correctable Errors collector initialized.
+May 26 16:22:55 ece-b1-sys kernel: [    2.795084] clk: Disabling unused clocks
+May 26 16:22:55 ece-b1-sys kernel: [    2.888291] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+May 26 16:22:55 ece-b1-sys kernel: [    2.895519] md: Waiting for all devices to be available before autodetect
+May 26 16:22:55 ece-b1-sys kernel: [    2.899780] md: If you don't use raid, use raid=noautodetect
+May 26 16:22:55 ece-b1-sys kernel: [    2.904582] md: Autodetecting RAID arrays.
+May 26 16:22:55 ece-b1-sys kernel: [    2.908165] md: autorun ...
+May 26 16:22:55 ece-b1-sys kernel: [    2.911064] md: ... autorun DONE.
+May 26 16:22:55 ece-b1-sys kernel: [    2.987796] EXT4-fs (nvme0n1p1): mounted filesystem e950b974-5b8b-4941-a433-6bd90b56f53b ro with ordered data mode. Quota mode: none.
+May 26 16:22:55 ece-b1-sys kernel: [    2.996194] VFS: Mounted root (ext4 filesystem) readonly on device 259:1.
+May 26 16:22:55 ece-b1-sys kernel: [    3.002183] devtmpfs: mounted
+May 26 16:22:55 ece-b1-sys kernel: [    3.007707] Freeing unused decrypted memory: 2036K
+May 26 16:22:55 ece-b1-sys kernel: [    3.012680] Freeing unused kernel image (initmem) memory: 4908K
+May 26 16:22:55 ece-b1-sys kernel: [    3.023432] Write protecting the kernel read-only data: 34816k
+May 26 16:22:55 ece-b1-sys kernel: [    3.027950] Freeing unused kernel image (rodata/data gap) memory: 1084K
+May 26 16:22:55 ece-b1-sys kernel: [    3.088830] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+May 26 16:22:55 ece-b1-sys kernel: [    3.093075] x86/mm: Checking user space page tables
+May 26 16:22:55 ece-b1-sys kernel: [    3.165137] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+May 26 16:22:55 ece-b1-sys kernel: [    3.172062] Run /sbin/init as init process
+May 26 16:22:55 ece-b1-sys kernel: [    3.181541]   with arguments:
+May 26 16:22:55 ece-b1-sys kernel: [    3.181545]     /sbin/init
+May 26 16:22:55 ece-b1-sys kernel: [    3.181546]   with environment:
+May 26 16:22:55 ece-b1-sys kernel: [    3.181547]     HOME=/
+May 26 16:22:55 ece-b1-sys kernel: [    3.181548]     TERM=linux
+May 26 16:22:55 ece-b1-sys kernel: [    3.181549]     BOOT_IMAGE=/boot/vmlinuz-6.5.0-1018-aws
+May 26 16:22:55 ece-b1-sys kernel: [   10.485766] systemd[1]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+May 26 16:22:55 ece-b1-sys kernel: [   11.345272] block nvme0n1: the capability attribute has been deprecated.
+May 26 16:22:55 ece-b1-sys kernel: [   17.276656] ACPI: bus type drm_connector registered
+May 26 16:22:55 ece-b1-sys kernel: [   17.524204] EXT4-fs (nvme0n1p1): re-mounted e950b974-5b8b-4941-a433-6bd90b56f53b r/w. Quota mode: none.
+May 26 16:22:55 ece-b1-sys kernel: [   17.628326] alua: device handler registered
+May 26 16:22:55 ece-b1-sys kernel: [   17.630516] emc: device handler registered
+May 26 16:22:55 ece-b1-sys kernel: [   17.632318] rdac: device handler registered
+May 26 16:22:55 ece-b1-sys kernel: [   19.434401] cryptd: max_cpu_qlen set to 1000
+May 26 16:22:55 ece-b1-sys kernel: [   19.540161] parport_pc 00:03: reported by Plug and Play ACPI
+May 26 16:22:55 ece-b1-sys kernel: [   19.608108] ena 0000:00:05.0: ENA device version: 0.10
+May 26 16:22:55 ece-b1-sys kernel: [   19.608117] ena 0000:00:05.0: ENA controller version: 0.0.1 implementation version 1
+May 26 16:22:55 ece-b1-sys kernel: [   19.616826] ena 0000:00:05.0: LLQ is not supported Fallback to host mode policy.
+May 26 16:22:55 ece-b1-sys kernel: [   19.630725] ppdev: user-space parallel port driver
+May 26 16:22:55 ece-b1-sys kernel: [   19.631010] AVX2 version of gcm_enc/dec engaged.
+May 26 16:22:55 ece-b1-sys kernel: [   19.631065] AES CTR mode by8 optimization enabled
+May 26 16:22:55 ece-b1-sys kernel: [   19.634399] ena 0000:00:05.0: Elastic Network Adapter (ENA) found at mem febf4000, mac addr 06:a9:92:50:5a:b9
+May 26 16:22:55 ece-b1-sys kernel: [   19.871480] ena 0000:00:05.0 ens5: renamed from eth0
+May 26 16:22:55 ece-b1-sys kernel: [   20.234116] loop0: detected capacity change from 0 to 49944
+May 26 16:22:55 ece-b1-sys kernel: [   20.343384] loop1: detected capacity change from 0 to 51672
+May 26 16:22:55 ece-b1-sys kernel: [   20.411072] input: ImPS/2 Generic Wheel Mouse as /devices/platform/i8042/serio1/input/input4
+May 26 16:22:55 ece-b1-sys kernel: [   20.455801] loop2: detected capacity change from 0 to 113992
+May 26 16:22:55 ece-b1-sys kernel: [   20.503911] loop3: detected capacity change from 0 to 113992
+May 26 16:22:55 ece-b1-sys kernel: [   20.568281] loop4: detected capacity change from 0 to 130880
+May 26 16:22:55 ece-b1-sys kernel: [   20.637225] loop5: detected capacity change from 0 to 130960
+May 26 16:22:55 ece-b1-sys kernel: [   20.687475] loop6: detected capacity change from 0 to 75776
+May 26 16:22:55 ece-b1-sys kernel: [   20.689074] loop7: detected capacity change from 0 to 178216
+May 26 16:22:55 ece-b1-sys kernel: [   20.761451] loop8: detected capacity change from 0 to 178240
+May 26 16:22:55 ece-b1-sys kernel: [   20.779035] loop9: detected capacity change from 0 to 80072
+May 26 16:22:55 ece-b1-sys kernel: [   20.841433] loop10: detected capacity change from 0 to 79328
+May 26 16:22:55 ece-b1-sys kernel: [   21.966668] audit: type=1400 audit(1716740558.075:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=257 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   21.966743] audit: type=1400 audit(1716740558.075:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=258 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   21.966748] audit: type=1400 audit(1716740558.075:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=258 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   21.972231] audit: type=1400 audit(1716740558.083:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=260 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   21.972358] audit: type=1400 audit(1716740558.083:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=260 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   21.972362] audit: type=1400 audit(1716740558.083:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=260 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   22.047125] audit: type=1400 audit(1716740558.155:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="tcpdump" pid=261 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   22.126929] audit: type=1400 audit(1716740558.235:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=259 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   22.126938] audit: type=1400 audit(1716740558.235:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=259 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   22.126941] audit: type=1400 audit(1716740558.235:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=259 comm="apparmor_parser"
+May 26 16:22:55 ece-b1-sys kernel: [   31.830663] kauditd_printk_skb: 27 callbacks suppressed
+May 26 16:22:55 ece-b1-sys kernel: [   31.830666] audit: type=1400 audit(1716740567.939:39): apparmor="DENIED" operation="exec" class="file" profile="/{,usr/}sbin/dhclient" name="/usr/bin/true" pid=317 comm="dhclient" requested_mask="x" denied_mask="x" fsuid=0 ouid=0
+May 26 16:22:55 ece-b1-sys kernel: [   31.849080] audit: type=1400 audit(1716740567.959:40): apparmor="DENIED" operation="exec" class="file" profile="/{,usr/}sbin/dhclient" name="/usr/bin/true" pid=318 comm="isc-worker0000" requested_mask="x" denied_mask="x" fsuid=0 ouid=0

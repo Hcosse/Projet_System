@@ -1,0 +1,140 @@
+2024/05/26 11:12:34 [warn] 1117#1117: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/26 11:12:34 [warn] 1117#1117: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/26 11:12:34 [warn] 1117#1117: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/26 11:12:34 [warn] 1117#1117: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/26 11:12:34 [notice] 1117#1117: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/26 11:12:34 [warn] 1194#1194: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/26 11:12:34 [warn] 1194#1194: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/26 11:12:34 [warn] 1194#1194: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/26 11:12:34 [warn] 1194#1194: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/26 11:12:34 [notice] 1194#1194: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:50:47 [warn] 223706#223706: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:50:47 [warn] 223706#223706: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:50:47 [emerg] 223706#223706: directive "index" is not terminated by ";" in /etc/nginx/conf.d/gbweb.conf:18
+2024/05/27 22:51:06 [warn] 223749#223749: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:51:06 [warn] 223749#223749: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:51:06 [warn] 223749#223749: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:51:06 [warn] 223749#223749: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:51:06 [warn] 223749#223749: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:51:06 [warn] 223749#223749: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:51:06 [warn] 223749#223749: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:51:06 [warn] 223749#223749: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:51:06 [notice] 223749#223749: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:51:17 [alert] 1430#1430: *9924 open socket #32 left in connection 7
+2024/05/27 22:51:17 [alert] 1430#1430: *9925 open socket #33 left in connection 16
+2024/05/27 22:51:17 [alert] 1430#1430: aborting
+2024/05/27 22:51:17 [warn] 223755#223755: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:51:17 [warn] 223755#223755: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:51:17 [warn] 223755#223755: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:51:17 [warn] 223755#223755: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:51:17 [warn] 223755#223755: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:51:17 [warn] 223755#223755: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:51:17 [warn] 223755#223755: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:51:17 [warn] 223755#223755: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:51:17 [notice] 223755#223755: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:51:18 [warn] 223756#223756: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:51:18 [warn] 223756#223756: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:51:18 [warn] 223756#223756: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:51:18 [warn] 223756#223756: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:51:18 [warn] 223756#223756: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:51:18 [warn] 223756#223756: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:51:18 [warn] 223756#223756: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:51:18 [warn] 223756#223756: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:51:18 [notice] 223756#223756: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:52:22 [alert] 223759#223759: *3 open socket #37 left in connection 3
+2024/05/27 22:52:22 [alert] 223759#223759: aborting
+2024/05/27 22:52:23 [warn] 223853#223853: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:52:23 [warn] 223853#223853: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:52:23 [warn] 223853#223853: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:52:23 [warn] 223853#223853: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:52:23 [warn] 223853#223853: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:52:23 [warn] 223853#223853: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:52:23 [warn] 223853#223853: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:52:23 [warn] 223853#223853: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:52:23 [notice] 223853#223853: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:52:23 [warn] 223854#223854: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:52:23 [warn] 223854#223854: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:52:23 [warn] 223854#223854: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:52:23 [warn] 223854#223854: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:52:23 [warn] 223854#223854: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:52:23 [warn] 223854#223854: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:52:23 [warn] 223854#223854: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:52:23 [warn] 223854#223854: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:52:23 [notice] 223854#223854: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:52:29 [warn] 223863#223863: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:52:29 [warn] 223863#223863: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:52:29 [warn] 223863#223863: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:52:29 [warn] 223863#223863: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:52:29 [warn] 223863#223863: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:52:29 [warn] 223863#223863: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:52:29 [warn] 223863#223863: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:52:29 [warn] 223863#223863: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:52:29 [notice] 223863#223863: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:53:40 [alert] 223856#223856: *1 open socket #37 left in connection 3
+2024/05/27 22:53:40 [alert] 223856#223856: *2 open socket #38 left in connection 4
+2024/05/27 22:53:40 [alert] 223856#223856: aborting
+2024/05/27 22:53:40 [warn] 223970#223970: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:53:40 [warn] 223970#223970: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:53:40 [warn] 223970#223970: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:53:40 [warn] 223970#223970: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:53:40 [warn] 223970#223970: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:53:40 [warn] 223970#223970: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:53:40 [warn] 223970#223970: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:53:40 [warn] 223970#223970: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:53:40 [notice] 223970#223970: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:53:40 [warn] 223972#223972: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:53:40 [warn] 223972#223972: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:53:40 [warn] 223972#223972: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:53:40 [warn] 223972#223972: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:53:40 [warn] 223972#223972: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:53:40 [warn] 223972#223972: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:53:40 [warn] 223972#223972: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:53:40 [warn] 223972#223972: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:53:40 [notice] 223972#223972: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:55:11 [alert] 223975#223975: *1 open socket #37 left in connection 3
+2024/05/27 22:55:11 [alert] 223975#223975: *2 open socket #38 left in connection 4
+2024/05/27 22:55:11 [alert] 223975#223975: *11 open socket #45 left in connection 9
+2024/05/27 22:55:11 [alert] 223975#223975: *13 open socket #44 left in connection 11
+2024/05/27 22:55:11 [alert] 223975#223975: *14 open socket #46 left in connection 12
+2024/05/27 22:55:11 [alert] 223975#223975: aborting
+2024/05/27 22:55:11 [warn] 224094#224094: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:55:11 [warn] 224094#224094: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:55:11 [warn] 224094#224094: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:55:11 [warn] 224094#224094: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:55:11 [warn] 224094#224094: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:55:11 [warn] 224094#224094: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:55:11 [warn] 224094#224094: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:55:11 [warn] 224094#224094: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:55:11 [notice] 224094#224094: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 22:55:11 [warn] 224095#224095: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 22:55:11 [warn] 224095#224095: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 22:55:11 [warn] 224095#224095: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 22:55:11 [warn] 224095#224095: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 22:55:11 [warn] 224095#224095: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 22:55:11 [warn] 224095#224095: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 22:55:11 [warn] 224095#224095: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 22:55:11 [warn] 224095#224095: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 22:55:11 [notice] 224095#224095: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 23:06:33 [alert] 224097#224097: *1 open socket #37 left in connection 3
+2024/05/27 23:06:33 [alert] 224097#224097: *2 open socket #38 left in connection 4
+2024/05/27 23:06:33 [alert] 224097#224097: *14 open socket #39 left in connection 5
+2024/05/27 23:06:33 [alert] 224097#224097: *63 open socket #40 left in connection 14
+2024/05/27 23:06:33 [alert] 224097#224097: aborting
+2024/05/27 23:06:33 [warn] 225548#225548: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 23:06:33 [warn] 225548#225548: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 23:06:33 [warn] 225548#225548: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 23:06:33 [warn] 225548#225548: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 23:06:33 [warn] 225548#225548: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 23:06:33 [warn] 225548#225548: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 23:06:33 [warn] 225548#225548: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 23:06:33 [warn] 225548#225548: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 23:06:33 [notice] 225548#225548: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)
+2024/05/27 23:06:34 [warn] 225549#225549: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gbweb.conf:2
+2024/05/27 23:06:34 [warn] 225549#225549: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gbweb.conf:3
+2024/05/27 23:06:34 [warn] 225549#225549: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/gitea.conf:2
+2024/05/27 23:06:34 [warn] 225549#225549: protocol options redefined for [::]:443 in /etc/nginx/conf.d/gitea.conf:3
+2024/05/27 23:06:34 [warn] 225549#225549: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/guili2025.conf:8
+2024/05/27 23:06:34 [warn] 225549#225549: protocol options redefined for [::]:443 in /etc/nginx/conf.d/guili2025.conf:9
+2024/05/27 23:06:34 [warn] 225549#225549: protocol options redefined for 0.0.0.0:443 in /etc/nginx/conf.d/radicale.conf:2
+2024/05/27 23:06:34 [warn] 225549#225549: protocol options redefined for [::]:443 in /etc/nginx/conf.d/radicale.conf:3
+2024/05/27 23:06:34 [notice] 225549#225549: ModSecurity-nginx v1.0.3 (rules loaded inline/local/remote: 0/0/0)

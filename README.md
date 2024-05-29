@@ -243,35 +243,11 @@ $uid ++
 
 ##Exercice 3
 
-L'obfuscation consiste à dissimuler des éléments sensibles ainsi que le fonctionnement d'un script je me suis donc appuyé sur un challenge root-me ue j'ai réalisé ! 
+J 'ai d'abord fai t un grep -irE "mot de passe :|mot de passe =| password :|MOT DE PASSE :|MOT DE PASSE =|PASSWORD : | PASSWORD =|password =" pour avoir une vue d'ensemble ddes logs et de ce que je recherchais ainsi par la suite j'ai utilisé find log -type f  pour trouver tous les fichier du repertoire log et ces sous repertoire ensuite j'utilise -exec pour executerla commande sed -i pour manipuler le fichier d'origine et -E pour activer les expressions régulière 's pour substitution remplacer l'expression par la regex qui cherhcehr les expressions (mot de passe *:|mot de passe *=| password *:|MOT DE PASSE *:|MOT DE PASSE *=|PASSWORD *: | PASSWORD *=|password *=) puis [^ \t]*/ permet de dès qu'il y  a un espace stopper le remplacement du mot de passe par des "*".
+```bash 
 
+find log -type f -exec sed -i -E 's/(mot de passe *:|mot de passe *=| password *:|MOT DE PASSE *:|MOT DE PASSE *=|PASSWORD *: | PASSWORD *=|password *=)[^ \t]*/\1 ******************/g' {} +
 
-```bash
-
-#!/bin/bash
-
-##  Affiche une demande de saisie du mot de passe à l'utilisateur.
-demander="echo Saisir mot de passe :"
-eval $demander
-read entree
-
-## Définit les commandes pour hasher le mot de passe en SHA-256.
-commande_echo="echo -n"
-commande_sha="sha256sum"
-commande_awk="awk '{print \$1}'"
-commande_hash="$commande_echo \"$entree\" | $commande_sha | $commande_awk"
-mot_de_passe_hashe=$(eval $commande_hash)
-
-## Convertit le hash en une série de valeurs ASCII.
-commande_od="od -An -t u1"
-commande_format="tr -s ' ' | tr ' ' ','"
-commande_encodage="$commande_od | $commande_format"
-ascii_encode=$(echo "$mot_de_passe_hashe" | eval $commande_encodage)
-
-##  Affiche le mot de passe hashé et encodé en ASCII.
-resultat="echo Mot de passe hashé en SHA-256 et encodé en ASCII :"
-final="$resultat \$ascii_encode"
-eval $final
 
 ```
 

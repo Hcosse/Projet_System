@@ -1,0 +1,81 @@
+
+Start-Date: 2024-05-06  08:17:53
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: cpio:amd64 (2.13+dfsg-7, 2.13+dfsg-7ubuntu0.1)
+End-Date: 2024-05-06  08:18:09
+
+Start-Date: 2024-05-06  08:18:17
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: less:amd64 (590-1ubuntu0.22.04.2, 590-1ubuntu0.22.04.3)
+End-Date: 2024-05-06  08:18:18
+
+Start-Date: 2024-05-06  08:18:23
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libnghttp2-14:amd64 (1.43.0-1ubuntu0.1, 1.43.0-1ubuntu0.2)
+End-Date: 2024-05-06  08:18:23
+
+Start-Date: 2024-05-11  14:55:36
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libglib2.0-data:amd64 (2.72.4-0ubuntu2.2, 2.72.4-0ubuntu2.3)
+End-Date: 2024-05-11  14:55:51
+
+Start-Date: 2024-05-11  14:56:01
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: linux-libc-dev:amd64 (5.15.0-105.115, 5.15.0-106.116)
+End-Date: 2024-05-11  14:56:04
+
+Start-Date: 2024-05-11  14:56:08
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: distro-info-data:amd64 (0.52ubuntu0.6, 0.52ubuntu0.7)
+End-Date: 2024-05-11  14:56:09
+
+Start-Date: 2024-05-11  14:56:13
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libglib2.0-bin:amd64 (2.72.4-0ubuntu2.2, 2.72.4-0ubuntu2.3), libglib2.0-0:amd64 (2.72.4-0ubuntu2.2, 2.72.4-0ubuntu2.3)
+End-Date: 2024-05-11  14:56:16
+
+Start-Date: 2024-05-28  11:53:21
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: linux-libc-dev:amd64 (5.15.0-106.116, 5.15.0-107.117)
+End-Date: 2024-05-28  11:53:35
+
+Start-Date: 2024-05-28  11:53:42
+Commandline: /usr/bin/unattended-upgrade
+Install: linux-headers-6.5.0-1020-aws:amd64 (6.5.0-1020.20~22.04.1, automatic), linux-aws-6.5-headers-6.5.0-1020:amd64 (6.5.0-1020.20~22.04.1, automatic), linux-image-6.5.0-1020-aws:amd64 (6.5.0-1020.20~22.04.1, automatic), linux-modules-6.5.0-1020-aws:amd64 (6.5.0-1020.20~22.04.1, automatic)
+Upgrade: linux-image-aws:amd64 (6.5.0.1018.18~22.04.1, 6.5.0.1020.20~22.04.1), linux-headers-aws:amd64 (6.5.0.1018.18~22.04.1, 6.5.0.1020.20~22.04.1), linux-aws:amd64 (6.5.0.1018.18~22.04.1, 6.5.0.1020.20~22.04.1)
+End-Date: 2024-05-28  11:54:35
+
+Start-Date: 2024-05-28  11:54:39
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-idna:amd64 (3.3-1, 3.3-1ubuntu0.1)
+End-Date: 2024-05-28  11:54:41
+
+Start-Date: 2024-05-28  11:54:46
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-headers-6.5.0-1016-aws:amd64 (6.5.0-1016.16~22.04.1)
+End-Date: 2024-05-28  11:54:48
+
+Start-Date: 2024-05-28  11:54:52
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-image-6.5.0-1016-aws:amd64 (6.5.0-1016.16~22.04.1), linux-modules-6.5.0-1016-aws:amd64 (6.5.0-1016.16~22.04.1)
+End-Date: 2024-05-28  11:54:55
+
+Start-Date: 2024-05-28  11:54:59
+Commandline: /usr/bin/unattended-upgrade
+Remove: linux-aws-6.5-headers-6.5.0-1016:amd64 (6.5.0-1016.16~22.04.1)
+End-Date: 2024-05-28  11:55:02
+
+Start-Date: 2024-05-29  06:13:10
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: python3-jinja2:amd64 (3.0.3-1ubuntu0.1, 3.0.3-1ubuntu0.2)
+End-Date: 2024-05-29  06:13:11
+
+Start-Date: 2024-05-29  06:13:15
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git-man:amd64 (1:2.34.1-1ubuntu1.10, 1:2.34.1-1ubuntu1.11)
+End-Date: 2024-05-29  06:13:16
+
+Start-Date: 2024-05-29  06:13:21
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git:amd64 (1:2.34.1-1ubuntu1.10, 1:2.34.1-1ubuntu1.11)
+End-Date: 2024-05-29  06:13:22

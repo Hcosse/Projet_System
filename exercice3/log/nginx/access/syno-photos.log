@@ -1,0 +1,8 @@
+172.69.33.6 - - [26/May/2024:16:53:05 +0200] "GET /wp-login.php HTTP/2.0" 444 0 "http://photos.gbweb.fr/wp-login.php" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0"
+172.68.22.44 - - [27/May/2024:04:01:00 +0200] "GET / HTTP/2.0" 444 0 "-" "Cloudflare-SSLDetector"
+172.71.130.75 - - [27/May/2024:11:50:41 +0200] "POST /webapi/query.cgi HTTP/2.0" 200 78213 "-" "Synology-Synology_Photos_1.5.2_rv:356_Pixel 7_Android_34_(Dalvik/2.1.0 (Linux; U; Android 14; Pixel 7 Build/AP1A.240505.005))"
+172.69.222.225 - - [27/May/2024:18:46:45 +0200] "GET / HTTP/2.0" 444 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+141.101.96.70 - - [27/May/2024:18:46:46 +0200] "GET /favicon.ico HTTP/2.0" 444 0 "https://photos.gbweb.fr/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+172.71.183.13 - - [28/May/2024:12:13:57 +0200] "GET / HTTP/2.0" 444 0 "-" "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+162.158.87.52 - - [28/May/2024:18:11:47 +0200] "GET /wp-login.php HTTP/2.0" 444 0 "http://photos.gbweb.fr/wp-login.php" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/95.0"
+10.22.22.164 - - [28/May/2024:23:51:42 +0200] "POST /webapi/query.cgi HTTP/2.0" 200 78213 "-" "Synology-Synology_Photos_1.5.2_rv:356_Pixel 7_Android_34_(Dalvik/2.1.0 (Linux; U; Android 14; Pixel 7 Build/AP1A.240505.005))"
